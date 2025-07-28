@@ -10,7 +10,7 @@ const AboutSection = () => {
             <img 
               src={monikkaaPhoto} 
               alt="Monikaa, Holistic Healing Practitioner" 
-              className="w-full h-auto rounded-xl shadow-md max-w-md mx-auto"
+              className="w-full h-auto shadow-md max-w-md mx-auto" style={{ borderRadius: '17.5rem' }} 
             />
           </div>
           

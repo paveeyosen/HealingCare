@@ -206,12 +206,6 @@ export class MemStorage implements IStorage {
         duration: "60-90 minutes"
       },
       {
-        name: "doTERRA Essential Oils",
-        description: "Ready to Transform Your Wellbeing Naturally? Looking for natural solutions for your daily wellness? At Meraki, we bring you doTERRA's pure, potent essential oils to support your body, mind, and spirit. No complicated protocols – just pure, natural solutions that work.",
-        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
-        duration: "45-90 minutes"
-      },
-      {
         name: "Fingerprint Analysis",
         description: "Curious About Your True Potential? Let Your Fingerprints Reveal Your Life Purpose. Ever wondered why you're drawn to certain paths in life? Your fingerprints hold the key. At Meraki, we unlock the ancient wisdom hidden in your unique fingerprint patterns to reveal your life purpose, natural talents, and authentic path.",
         image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
@@ -222,6 +216,12 @@ export class MemStorage implements IStorage {
         description: "Need Someone to Talk To? Life's challenges can feel overwhelming, but you don't have to face them alone. At Meraki, we provide a safe, non-judgmental space where you can explore your feelings, heal from past experiences, and build a stronger, more resilient you.",
         image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
         duration: "50-75 minutes"
+      },
+       {
+        name: "doTERRA Essential Oils",
+        description: "Ready to Transform Your Wellbeing Naturally? Looking for natural solutions for your daily wellness? At Meraki, we bring you doTERRA's pure, potent essential oils to support your body, mind, and spirit. No complicated protocols – just pure, natural solutions that work.",
+        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        duration: "45-90 minutes"
       }
     ];
     
@@ -233,40 +233,76 @@ export class MemStorage implements IStorage {
   private initializeProducts() {
     const products: InsertProduct[] = [
       {
-        name: "Lavender Essential Oil",
+        name: "doTERRA Lavender Essential Oil",
         description: "Known for its calming properties, lavender oil helps reduce anxiety and promotes restful sleep.",
-        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
         price: "₹2,299"
       },
       {
-        name: "Peppermint Essential Oil",
+        name: "doTERRA Peppermint Essential Oil",
         description: "Invigorating peppermint oil boosts energy, improves focus, and aids in digestion.",
-        image: "https://pixabay.com/get/gb017338396ed8d07199632517e55abdad575d50df97fe71274498f207196d7cc741680b627234cb7b4c79f714eb1ba59358a8dc60925a075d0a970765e23958f_1280.jpg",
+        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
         price: "₹1,999"
+      },
+            {
+        name: "doTERRA Lemon Essential Oil",
+        description: "Doterra lemon oil that purifies the air, elevates mood, and supports healthy digestion.",
+        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        price: "₹1,599"
+      },
+        {
+        name: "doTERRA Orange Essential Oil",
+        description: "Orange doTerra oil that purifies the air, elevates mood, and supports healthy digestion.",
+        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        price: "₹1,599"
+      },
+       {
+        name: "doTERRA lemoneucalyptus Essential Oil",
+        description: "This Lemoneucalyptus oil that purifies the air, elevates mood, and supports healthy digestion.",
+        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        price: "₹1,599"
       },
       {
         name: "Serenity Blend",
         description: "A proprietary blend designed to promote relaxation and create a peaceful environment.",
-        image: "https://pixabay.com/get/g9c1d41fd53d36c32fa19e5616849cf25c7bac2678bbf563257a4ced7b1edda2c05ad080de518a26172485980ef78d82144481f52b727480f6b4e7575e9d6e44d_1280.jpg",
+        image: "https://images-cdn.ubuy.co.in/668315f1fcc418300348b531-anti-stress-mix-alcohol-free-extract.jpg",
         price: "₹2,699"
-      },
-      {
-        name: "Tea Tree Essential Oil",
-        description: "A powerful oil with cleansing properties for skin, home, and emotional wellbeing.",
-        image: "https://pixabay.com/get/ge8153173d5452d72ddda68a4748c0e63cf117fe4ef3415c2c49ca8724d0e9aab38a08d6ebaa83626f73a7a9e4b00e304c142fc9e88335ed3c0c1d22e2930db2b_1280.jpg",
-        price: "₹2,199"
-      },
-      {
-        name: "Lemon Essential Oil",
-        description: "Uplifting citrus oil that purifies the air, elevates mood, and supports healthy digestion.",
-        image: "https://images.unsplash.com/photo-1530991808291-7e157454758c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-        price: "₹1,599"
       },
       {
         name: "Beginner's Wellness Kit",
         description: "A curated collection of essential oils to start your journey to wellness and healing.",
-        image: "https://pixabay.com/get/g937864526a81ca04196af78a8ffc63e3c9f83a0a7bfc768683ccb0cb6b3d1571030b881ff5f79a1b7fe672687d670df5c06919ef5a8a3cd46f397c7cdd107007_1280.jpg",
+        image: "https://giftenmarket.com/cdn/shop/files/mindfulness-gift-box-giften-market-4.jpg",
         price: "₹7,299"
+      },
+      {
+        name: "Crystals",
+        description: "Crystal healing is a gentle, holistic therapy that harnesses the natural vibrational energies of crystals to support emotional, physical, and spiritual well-being. Each crystal holds unique properties that interact with the body's energy field to restore balance, clear blockages, and promote inner harmony.",
+        image: "https://hips.hearstapps.com/hmg-prod/images/crystals-1649247627.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*",
+        price: "₹1,299"
+      },
+      {
+        name: "Seven Chakra Bracelets",
+        description: "This Bracelet supports emotional clarity, spiritual awakening, and overall balance. Ideal for meditation, stress relief, or daily grounding, this bracelet helps harmonize your inner energies and encourages a sense of centered well-being.",
+        image: "https://crystaldivine.in/wp-content/uploads/2023/08/7-chakra-with-tree-charm-1080x1080.webp",
+        price: "₹999"
+      },
+      {
+        name: "Rose quartz Bracelets",
+        description: "Rose Quartz Bracelet radiates gentle, nurturing energy that opens the heart chakra. It promotes self-love, emotional healing, and compassion toward others. Perfect for those seeking emotional deeper connections in relationships",
+        image: "https://www.whatyoursignsays.com/media/catalog/product/cache/84090973cd141c0a06562cbb8c9b6836/i/m/image_3__1.webp",
+        price: "₹999"
+      },
+      {
+        name: "Amethyst Bracelets",
+        description: "Amethyst Bracelet is a calming and spiritually protective accessory. Associated with the crown chakra, it enhances intuition, soothes anxiety, and supports restful sleep.",
+        image: "https://themiraclehub.in/blog/wp-content/uploads/2024/04/beautiful-bracelet-with-amethyst-selective-focus-1-scaled.jpg",
+        price: "₹999"
+      },
+      {
+        name: "Tiger eye crstal bracelet",
+        description: "Tiger Eye Bracelet is a grounding stone of strength, courage, and protection. With its rich golden-brown bands, it supports decision-making, confidence, and mental focus.",
+        image: "https://www.findgemstone.com/wp-content/uploads/2024/12/Which-Hand-to-Wear-a-Tiger-Eye-Bracelet-For-Female-and-Male.jpg",
+        price: "₹999"
       }
     ];
     
