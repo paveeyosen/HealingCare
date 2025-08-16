@@ -79,6 +79,7 @@
                 <a href="#about" class="text-gray-600 font-medium hover:text-purple-500 transition-all">About</a>
                 <a href="#testimonials" class="text-gray-600 font-medium hover:text-purple-500 transition-all">Testimonials</a>
                 <a href="#contact" class="text-gray-600 font-medium hover:text-purple-500 transition-all">Contact</a>
+                <a href="#faq" class="text-gray-600 font-medium hover:text-purple-500 transition-all">FAQ</a>
             </nav>
             
             <button onclick="scrollToSection('booking')" class="hidden md:block bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full transition-all">
@@ -95,6 +96,7 @@
                 <a href="#about" onclick="toggleMobileMenu()" class="text-gray-600 font-medium text-left">About</a>
                 <a href="#testimonials" onclick="toggleMobileMenu()" class="text-gray-600 font-medium text-left">Testimonials</a>
                 <a href="#contact" onclick="toggleMobileMenu()" class="text-gray-600 font-medium text-left">Contact</a>
+                <a href="#faq" onclick="toggleMobileMenu()" class="text-gray-600 font-medium hover:text-purple-500 transition-all">FAQ</a>
                 <button onclick="scrollToSection('booking'); toggleMobileMenu()" class="bg-purple-600 text-white px-6 py-2 rounded-full w-full">
                     Book Now
                 </button>
@@ -107,6 +109,13 @@
         <div class="absolute inset-0 bg-gradient-to-r from-purple-900/70 to-purple-600/70 z-10"></div>
         <div class="relative h-screen bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')">
             <div class="container mx-auto px-4 h-full flex items-center z-20 relative">
+                
+                <div className="lg:col-span-2">
+            <img 
+              src={monikkaaPhoto} 
+              alt="Monikaa, Holistic Healing Practitioner" 
+              className="w-full h-auto shadow-md max-w-md mx-auto" style={{ borderRadius: '17.5rem' }}    />
+          </div>
                 <div class="max-w-2xl text-white">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-6">
                         Discover Inner Peace and Healing
@@ -705,6 +714,7 @@
                         <li><a href="#about" class="text-purple-200 hover:text-white transition-all">About</a></li>
                         <li><a href="#testimonials" class="text-purple-200 hover:text-white transition-all">Testimonials</a></li>
                         <li><a href="#contact" class="text-purple-200 hover:text-white transition-all">Contact</a></li>
+                        <li><a href="#faq" class="text-purple-200 hover:text-white transition-all">FAQ</a></li>
                     </ul>
                 </div>
                 

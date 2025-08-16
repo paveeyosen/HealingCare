@@ -1,4 +1,5 @@
 import { FaHeartPulse, FaCertificate, FaSeedling } from 'react-icons/fa6';
+import monikkaaPhoto from '@assets/Meraki 3-2_1749982719833.jpg';
 
 const IntroSection = () => {
   return (
@@ -14,7 +15,24 @@ const IntroSection = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-purple-50 p-8 rounded-xl text-center">
+
+<div className="lg:col-span-1">
+            <img 
+              src={monikkaaPhoto} 
+              alt="Monikaa, Holistic Healing Practitioner" 
+              className="w-full h-auto shadow-md max-w-md mx-auto" style={{ borderRadius: '17.5rem' }} 
+            />
+          </div>
+
+          <div className="lg:col-span-1">
+            <img 
+              src={monikkaaPhoto} 
+              alt="Monikaa, Holistic Healing Practitioner" 
+              className="w-full h-auto shadow-md max-w-md mx-auto" style={{ borderRadius: '17.5rem' }} 
+            />
+          </div>
+
+          {/* <div className="bg-purple-50 p-8 rounded-xl text-center">
             <div className="text-purple-600 text-4xl mb-4 flex justify-center">
               <FaHeartPulse />
             </div>
@@ -22,9 +40,9 @@ const IntroSection = () => {
             <p className="text-gray-600">
               We treat the whole person, addressing the interconnected nature of physical, emotional, and spiritual health.
             </p>
-          </div>
+          </div> */}
           
-          <div className="bg-purple-50 p-8 rounded-xl text-center">
+          {/* <div className="bg-purple-50 p-8 rounded-xl text-center">
             <div className="text-purple-600 text-4xl mb-4 flex justify-center">
               <FaCertificate />
             </div>
@@ -33,15 +51,33 @@ const IntroSection = () => {
               Our team consists of experienced, certified professionals dedicated to your healing journey.
             </p>
           </div>
-          
+           */}
           <div className="bg-purple-50 p-8 rounded-xl text-center">
             <div className="text-purple-600 text-4xl mb-4 flex justify-center">
               <FaSeedling />
             </div>
-            <h3 className="text-xl font-heading font-bold mb-3 text-purple-800">Natural Products</h3>
-            <p className="text-gray-600">
-              We use only the highest quality, natural products to complement our healing services.
-            </p>
+            <h3 className="text-xl font-heading font-bold mb-3 text-purple-800">Benefits of EnergyHealing</h3>
+           
+            <ul>
+              <li>
+                <span className="text-purple-600 mr-2">★</span>
+                You'll notice a real change in the way you feel immediately</li>
+              <li>
+                <span className="text-purple-600 mr-2">★</span>
+                You'll change the type and quality of thinking</li>
+              <li>
+                <span className="text-purple-600 mr-2">★</span>
+                You'll get rid of the subconscious blocks</li>
+              <li>
+                <span className="text-purple-600 mr-2">★</span>
+                Emotional trauma associated with past experiences will go away</li>
+              <li>
+                <span className="text-purple-600 mr-2">★</span>
+                You'll remove negative ancestral programs & patterns</li>
+              <li>
+                <span className="text-purple-600 mr-2">★</span>
+                It removes all ties to negative people and energies</li>
+            </ul>
           </div>
         </div>
       </div>

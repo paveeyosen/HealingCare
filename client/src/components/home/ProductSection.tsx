@@ -83,12 +83,12 @@ const ProductSection = () => {
         
         <div className="mt-12 text-center">
           <Link href="/products">
-            <Button 
+            {/* <Button 
               variant="link" 
               className="inline-flex items-center text-purple-700 hover:text-purple-500 font-medium"
             >
               View All Products <FaArrowRight className="ml-2" />
-            </Button>
+            </Button> */}
           </Link>
         </div>
       </div>
