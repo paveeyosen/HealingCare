@@ -1,5 +1,6 @@
 import { FaHeartPulse, FaCertificate, FaSeedling } from 'react-icons/fa6';
-import monikkaaPhoto from '@assets/Meraki 3-2_1749982719833.jpg';
+import crystal from '@assetsimg/stonw.jpeg'; 
+import healer from '@assetsimg/healer.jpeg'; 
 
 const IntroSection = () => {
   return (
@@ -18,7 +19,7 @@ const IntroSection = () => {
 
 <div className="lg:col-span-1">
             <img 
-              src={monikkaaPhoto} 
+              src={crystal} 
               alt="Monikaa, Holistic Healing Practitioner" 
               className="w-full h-auto shadow-md max-w-md mx-auto" style={{ borderRadius: '17.5rem' }} 
             />
@@ -26,9 +27,9 @@ const IntroSection = () => {
 
           <div className="lg:col-span-1">
             <img 
-              src={monikkaaPhoto} 
+              src={healer} 
               alt="Monikaa, Holistic Healing Practitioner" 
-              className="w-full h-auto shadow-md max-w-md mx-auto" style={{ borderRadius: '17.5rem' }} 
+              className="w-full h-auto shadow-md max-w-md mx-auto" style={{ borderRadius: '17.5rem',height: '39rem' }} 
             />
           </div>
 
@@ -56,27 +57,32 @@ const IntroSection = () => {
             <div className="text-purple-600 text-4xl mb-4 flex justify-center">
               <FaSeedling />
             </div>
+            <h3 className="text-xl font-heading font-bold mb-3 text-purple-800"> * * * * * * </h3>
             <h3 className="text-xl font-heading font-bold mb-3 text-purple-800">Benefits of EnergyHealing</h3>
-           
+            <h3 className="text-xl font-heading font-bold mb-3 text-purple-800"> </h3>           
             <ul>
               <li>
-                <span className="text-purple-600 mr-2">★</span>
-                You'll notice a real change in the way you feel immediately</li>
+
+                </li>
+
               <li>
                 <span className="text-purple-600 mr-2">★</span>
-                You'll change the type and quality of thinking</li>
+                You'll notice a real change in the way you feel immediately     </li>
               <li>
                 <span className="text-purple-600 mr-2">★</span>
-                You'll get rid of the subconscious blocks</li>
+                You'll change the type and quality of thinking   </li>
               <li>
                 <span className="text-purple-600 mr-2">★</span>
-                Emotional trauma associated with past experiences will go away</li>
+                You'll get rid of the subconscious blocks    </li>
               <li>
                 <span className="text-purple-600 mr-2">★</span>
-                You'll remove negative ancestral programs & patterns</li>
+                Emotional trauma associated with past experiences will go away   </li>
               <li>
                 <span className="text-purple-600 mr-2">★</span>
-                It removes all ties to negative people and energies</li>
+                You'll remove negative ancestral programs & patterns    </li>
+              <li>
+                <span className="text-purple-600 mr-2">★</span>
+                It removes all ties to negative people and energies  </li>
             </ul>
           </div>
         </div>

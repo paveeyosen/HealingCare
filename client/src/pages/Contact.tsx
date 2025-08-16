@@ -183,7 +183,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-medium text-gray-800 mb-1">Our Location</h3>
-                    <p className="text-gray-600">123 Serenity Lane<br />Harmony Hills, CA 94123</p>
+                    <p className="text-gray-600">Ground Floor, No.11<br />
+                    Police Colony, Kilpauk garden colony, Kilpauk <br /> chennai <br /> Tamil Nadu - 600010 </p>
                   </div>
                 </div>
               </div>
@@ -195,7 +196,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-medium text-gray-800 mb-1">Phone</h3>
-                    <p className="text-gray-600">(555) 123-4567</p>
+                    <p className="text-gray-600">044 3141 4632</p>
                     <p className="text-gray-500 text-sm">Monday-Friday, 9am-5pm PST</p>
                   </div>
                 </div>
