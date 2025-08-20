@@ -209,8 +209,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-medium text-gray-800 mb-1">Email</h3>
-                    <p className="text-gray-600">info@serenehealing.com</p>
-                    <p className="text-gray-600">bookings@serenehealing.com</p>
+                    <p className="text-gray-600">info@merakisoulfullife.com</p>
+                    <p className="text-gray-600">info@merakisoulfullife.com</p>
                   </div>
                 </div>
               </div>

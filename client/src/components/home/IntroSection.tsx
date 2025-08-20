@@ -8,7 +8,7 @@ const IntroSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6 text-purple-800">
-            Welcome to Serene Healing
+            Welcome to Meraki Soulful Life
           </h2>
           <p className="text-lg text-gray-600">
             We believe in the power of holistic healing to transform lives. Our carefully curated services combine ancient wisdom with modern techniques to provide a comprehensive approach to wellness.

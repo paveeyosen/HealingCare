@@ -57,7 +57,7 @@ const ProductSection = () => {
               <img 
                 src={product.image} 
                 alt={product.name} 
-                className="w-full h-56 object-cover"
+                className="max-w-[200px] max-h-[250px] mx-auto object-contain"
               />
               <CardContent className="p-6">
                 <h3 className="text-xl font-heading font-bold mb-2 text-purple-800">

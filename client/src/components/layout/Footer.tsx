@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-heading font-bold mb-4">Serene Healing</h3>
+            <h3 className="text-xl font-heading font-bold mb-4">Meraki Soulful Life</h3>
             <p className="text-purple-200 mb-6">
               Empowering holistic wellness through the healing arts. Your journey to balance and harmony begins here.
             </p>
@@ -24,9 +24,7 @@ const Footer = () => {
               <a href="#" className="text-purple-200 hover:text-white transition-all" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="#" className="text-purple-200 hover:text-white transition-all" aria-label="LinkedIn">
-                <i className="fab fa-linkedin-in"></i>
-              </a>
+              
             </div>
           </div>
           
@@ -129,7 +127,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-12 pt-8 border-t border-purple-800 text-center text-purple-300">
-          <p>&copy; {new Date().getFullYear()} Serene Healing. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Meraki Soulful Life. All rights reserved.</p>
         </div>
       </div>
     </footer>

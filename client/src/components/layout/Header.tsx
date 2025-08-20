@@ -32,7 +32,7 @@ const Header = () => {
             <img 
               src={merakiLogo} 
               alt="Meraki - soulful life" 
-              className="h-28 w-auto"
+              className="w-auto" style={{ height: '9.5rem' }}
             />
           </Link>
         </div>
@@ -47,8 +47,8 @@ const Header = () => {
         </button>
         
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-8">
-          <button 
+        <nav className="hidden md:flex space-x-8" style={{ fontSize: '28px' }}>
+          <button  
             onClick={() => handleNavClick('home')} 
             className={`${location === '/' ? 'text-purple-700' : 'text-gray-600'} font-medium hover:text-purple-500 transition-all`}
           >
@@ -137,6 +137,12 @@ const Header = () => {
             className="text-gray-600 font-medium hover:text-purple-500 transition-all"
           >
             Testimonials
+          </button>
+           <button 
+            onClick={() => handleNavClick('faq')} 
+            className="text-gray-600 font-medium hover:text-purple-500 transition-all"
+          >
+            FAQ
           </button>
           <button 
             onClick={() => handleNavClick('contact')} 

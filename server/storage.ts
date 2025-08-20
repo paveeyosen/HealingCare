@@ -220,7 +220,7 @@ export class MemStorage implements IStorage {
        {
         name: "doTERRA Essential Oils",
         description: "Ready to Transform Your Wellbeing Naturally? Looking for natural solutions for your daily wellness? At Meraki, we bring you doTERRA's pure, potent essential oils to support your body, mind, and spirit. No complicated protocols – just pure, natural solutions that work.",
-        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        image: "https://doterra-prod-media1.s3.amazonaws.com/sys-master/root/h1b/ha7/30709280997406/2x3_546x819_15ml_30170001_wild_orange_us_english_web.png",
         duration: "45-90 minutes"
       }
     ];
@@ -235,31 +235,31 @@ export class MemStorage implements IStorage {
       {
         name: "doTERRA Lavender Essential Oil",
         description: "Known for its calming properties, lavender oil helps reduce anxiety and promotes restful sleep.",
-        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        image: "https://doterra-prod-media1.s3.amazonaws.com/sys-master/root/h58/hb2/30709280604190/2x3_546x819_15ml_30110001_lavender_us_english_web.png",
         price: "₹2,299"
       },
       {
         name: "doTERRA Peppermint Essential Oil",
         description: "Invigorating peppermint oil boosts energy, improves focus, and aids in digestion.",
-        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        image: "https://doterra-prod-media1.s3.amazonaws.com/sys-master/root/h07/h6d/30731958026270/2x3_566x819_15ml_30190001_peppermint_us_english_web.png",
         price: "₹1,999"
       },
             {
         name: "doTERRA Lemon Essential Oil",
         description: "Doterra lemon oil that purifies the air, elevates mood, and supports healthy digestion.",
-        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        image: "https://doterra-prod-media1.s3.amazonaws.com/h74/hfc/27990402007070.png",
         price: "₹1,599"
       },
         {
         name: "doTERRA Orange Essential Oil",
         description: "Orange doTerra oil that purifies the air, elevates mood, and supports healthy digestion.",
-        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        image: "https://doterra-prod-media1.s3.amazonaws.com/sys-master/root/h1b/ha7/30709280997406/2x3_546x819_15ml_30170001_wild_orange_us_english_web.png",
         price: "₹1,599"
       },
        {
         name: "doTERRA lemoneucalyptus Essential Oil",
         description: "This Lemoneucalyptus oil that purifies the air, elevates mood, and supports healthy digestion.",
-        image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        image: "https://doterra-prod-media1.s3.amazonaws.com/h3d/h0a/27990402203678.png",
         price: "₹1,599"
       },
       {
@@ -320,7 +320,7 @@ export class MemStorage implements IStorage {
         initials: "JM"
       },
       {
-        text: "I've been using the essential oils from Serene Healing for months now, and they've become an integral part of my daily wellness routine. The quality is exceptional, and the Serenity Blend helps me sleep better than ever.",
+        text: "I've been using the essential oils from Meraki Soulful Life for months now, and they've become an integral part of my daily wellness routine. The quality is exceptional, and the Serenity Blend helps me sleep better than ever.",
         name: "Robert T.",
         title: "Product Customer",
         initials: "RT"

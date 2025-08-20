@@ -118,3 +118,13 @@
     font-family: 'Poppins', sans-serif;
   }
 }
+
+@layer components {
+  input, textarea, select {
+    @apply text-black;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    @apply text-gray-500;
+  }
+}

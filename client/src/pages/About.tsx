@@ -7,7 +7,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 text-purple-800">
-            About Serene Healing
+            About Meraki Soulful Life
           </h1>
           <p className="text-lg text-gray-600">
             Discover our journey, mission, and the healing philosophy that guides our practice.
@@ -26,13 +26,13 @@ const About = () => {
           <div>
             <h2 className="text-3xl font-heading font-bold mb-6 text-purple-800">Our Story</h2>
             <p className="text-gray-600 mb-6">
-              Serene Healing was founded in 2010 by Sarah Johnson after her own transformative journey with holistic healing practices. Following a personal health crisis that conventional medicine couldn't fully address, Sarah discovered the profound impact of integrative healing modalities.
+              Meraki Soulful Life was founded in 2010 by Sarah Johnson after her own transformative journey with holistic healing practices. Following a personal health crisis that conventional medicine couldn't fully address, Sarah discovered the profound impact of integrative healing modalities.
             </p>
             <p className="text-gray-600 mb-6">
               After experiencing firsthand the transformative power of sound healing, crystal therapy, aromatherapy, and mindfulness meditation, Sarah committed herself to extensive training in these practices. Her vision was to create a sanctuary where others could find the same healing and balance she discovered.
             </p>
             <p className="text-gray-600">
-              Today, Serene Healing has grown into a respected wellness center, helping hundreds of clients reconnect with their innate capacity for healing and wellbeing.
+              Today, Meraki Soulful Life has grown into a respected wellness center, helping hundreds of clients reconnect with their innate capacity for healing and wellbeing.
             </p>
           </div>
         </div>
@@ -42,7 +42,7 @@ const About = () => {
             <h2 className="text-3xl font-heading font-bold mb-8 text-purple-800 text-center">Our Philosophy</h2>
             <div className="space-y-6">
               <p className="text-gray-600">
-                At Serene Healing, we believe that true wellness comes from harmonizing the mind, body, and spirit. Our approach is founded on several core principles:
+                At Meraki Soulful Life, we believe that true wellness comes from harmonizing the mind, body, and spirit. Our approach is founded on several core principles:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">

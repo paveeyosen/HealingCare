@@ -110,7 +110,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h3 className="font-medium text-gray-800 mb-1">Email</h3>
-                    <p className="text-gray-600">info@serenehealing.com</p>
+                    <p className="text-gray-600">info@merakisoulfullife.com</p>
                   </div>
                 </div>
                 
@@ -145,21 +145,8 @@ const ContactSection = () => {
                     aria-label="Instagram"
                   >
                     <FaInstagram />
-                  </a>
-                  <a 
-                    href="#" 
-                    className="h-10 w-10 rounded-full bg-purple-100 text-purple-600 hover:bg-purple-200 flex items-center justify-center transition-all"
-                    aria-label="Pinterest"
-                  >
-                    <FaPinterest />
-                  </a>
-                  <a 
-                    href="#" 
-                    className="h-10 w-10 rounded-full bg-purple-100 text-purple-600 hover:bg-purple-200 flex items-center justify-center transition-all"
-                    aria-label="Youtube"
-                  >
-                    <FaYoutube />
-                  </a>
+                  </a>                
+                 
                 </div>
               </div>
             </div>
@@ -198,7 +185,7 @@ const ContactSection = () => {
                             <Input 
                               type="email" 
                               placeholder="Your email address" 
-                              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent" 
+                              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 text-gray-800 focus:ring-purple-500 focus:border-transparent" 
                               {...field}
                             />
                           </FormControl>

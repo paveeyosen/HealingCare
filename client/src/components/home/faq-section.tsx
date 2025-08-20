@@ -46,7 +46,7 @@ export default function FAQSection() {
   {
     
     question: "What are your session prices?",
-    answer: "Individual sessions: Sound Healing ($85), Crystal Healing ($95), Aromatherapy ($75), Mindfulness Meditation ($45). We offer package deals: 3-Session Package (15% off), 6-Session Package (25% off), and Monthly Membership ($120 for 2 sessions + 10% off products).",
+    answer: "Individual sessions: Sound Healing (₹1850), Crystal Healing (₹1500), Aromatherapy (₹1750), Mindfulness Meditation (₹1450). We offer package deals: 3-Session Package (15% off), 6-Session Package (25% off), and Monthly Membership (₹5000 for 2 sessions + 10% off products).",
      
   }
   ];
