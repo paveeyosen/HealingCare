@@ -184,44 +184,38 @@ export class MemStorage implements IStorage {
       {
         name: "Sound Healing",
         description: "Stressed? Overwhelmed? Let Sound Healing Guide You Back to Peace. Life's chaotic enough – finding peace shouldn't be. At Meraki, we use the gentle power of sound to help you relax, recharge, and rediscover your balance. No complex techniques, just lie back and let the healing vibrations work their magic.",
-        image: "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        image: "https://img-c.udemycdn.com/course/750x422/5881172_f93a_3.jpg",
         duration: "60-90 minutes"
       },
       {
         name: "Crystal Healing",
         description: "Feeling Drained? Unbalanced? Life's energy can get scattered and depleted – finding your balance shouldn't be complicated. At Meraki, we use the natural power of crystals to help you realign, recharge, and restore your natural state of wellbeing. No complex rituals, just pure crystal energy working its natural magic.",
-        image: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        image: "https://endotaspa.com.au/media/wysiwyg/blogs/product/Crystal_Healing_mobile.jpg",
         duration: "60-90 minutes"
       },
       {
         name: "Life Coaching",
         description: "Feeling Stuck? Uncertain? Life's big questions shouldn't keep you awake at night. At Meraki, we help you transform confusion into clarity, dreams into plans, and obstacles into stepping stones. No judgment, no cookie-cutter solutions – just genuine guidance to help you create the life you want.",
-        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        image: "https://res.cloudinary.com/zenbusiness/q_auto,w_5184,h_3456/v1/shared-assets/s2/raster/life-coaching-in-blocks.jpg",
         duration: "60-90 minutes"
       },
       {
         name: "Numerology",
         description: "Searching for Life's Hidden Patterns? Let Numbers Illuminate Your Path. Ever wondered why certain numbers keep appearing in your life? At Meraki, we decode the ancient wisdom of numbers to reveal your life's purpose, natural talents, and upcoming opportunities. No complex math needed – just clear insights based on your personal numbers.",
-        image: "https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        image: "https://media.licdn.com/dms/image/v2/C5112AQHSIMsjnatv5g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1551884704840?e=2147483647&v=beta&t=AAML3_L73kPgDqLE9HvM1TBRponHlGsVDSVHjFKfEQI",
         duration: "60-90 minutes"
       },
       {
         name: "Fingerprint Analysis",
         description: "Curious About Your True Potential? Let Your Fingerprints Reveal Your Life Purpose. Ever wondered why you're drawn to certain paths in life? Your fingerprints hold the key. At Meraki, we unlock the ancient wisdom hidden in your unique fingerprint patterns to reveal your life purpose, natural talents, and authentic path.",
-        image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        image: "https://s39569.pcdn.co/wp-content/uploads/2023/07/digital-fingerprint-on-black-screen-300x150.jpg",
         duration: "45-60 minutes"
       },
       {
         name: "Counseling Therapy",
         description: "Need Someone to Talk To? Life's challenges can feel overwhelming, but you don't have to face them alone. At Meraki, we provide a safe, non-judgmental space where you can explore your feelings, heal from past experiences, and build a stronger, more resilient you.",
-        image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+        image: "https://www.psychowellnesscenter.com/wp-content/uploads/2025/03/Guidance-Counselling-and-Therapy-01.png",
         duration: "50-75 minutes"
-      },
-       {
-        name: "doTERRA Essential Oils",
-        description: "Ready to Transform Your Wellbeing Naturally? Looking for natural solutions for your daily wellness? At Meraki, we bring you doTERRA's pure, potent essential oils to support your body, mind, and spirit. No complicated protocols – just pure, natural solutions that work.",
-        image: "https://doterra-prod-media1.s3.amazonaws.com/sys-master/root/h1b/ha7/30709280997406/2x3_546x819_15ml_30170001_wild_orange_us_english_web.png",
-        duration: "45-90 minutes"
       }
     ];
     

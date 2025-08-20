@@ -1,6 +1,6 @@
 import { FaHeartPulse, FaCertificate, FaSeedling } from 'react-icons/fa6';
 import crystal from '@assetsimg/stonw.jpeg'; 
-import healer from '@assetsimg/healer.jpeg'; 
+import healer from '@assetsimg/healer.jpeg'; // Adjust the path as necessary
 
 const IntroSection = () => {
   return (
@@ -21,7 +21,7 @@ const IntroSection = () => {
             <img 
               src={crystal} 
               alt="Monikaa, Holistic Healing Practitioner" 
-              className="w-full h-auto shadow-md max-w-md mx-auto" style={{ borderRadius: '17.5rem' }} 
+              className="w-full h-auto shadow-md max-w-md mx-auto" style={{ borderRadius: '17.5rem', height: '38rem' }} 
             />
           </div>
 
