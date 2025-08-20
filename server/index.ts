@@ -68,15 +68,15 @@ app.use((req, res, next) => {
   //   log(`serving on port ${port}`);
   // });
 
-  const port = 5000;
-server.listen(port, '127.0.0.1', () => {
-  console.log(`Serving on port ${port}`);
-});
-// const port : any = process.env.PORT || 10000;
-// const host : any = process.env.IP_ADDR || '0.0.0.0'; 
-
-// server.listen(port, host, () => {
-//   console.log(`Server running on http://${host}:${port}`);
+//   const port = 5000;
+// server.listen(port, '127.0.0.1', () => {
+//   console.log(`Serving on port ${port}`);
 // });
+const port : any = process.env.PORT || 10000;
+const host : any = process.env.IP_ADDR || '0.0.0.0'; 
+
+server.listen(port, host, () => {
+  console.log(`Server running on http://${host}:${port}`);
+});
 
 })();
