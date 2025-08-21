@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div className="container mx-auto px-4 py-3 flex justify-between items-center" style={{ height: '50px' }}>
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
             <img 
@@ -47,7 +47,7 @@ const Header = () => {
         </button>
         
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-8" style={{ fontSize: '28px' }}>
+        <nav className="hidden md:flex space-x-8" style={{ fontSize: '20px' }}>
           <button  
             onClick={() => handleNavClick('home')} 
             className={`${location === '/' ? 'text-purple-700' : 'text-gray-600'} font-medium hover:text-purple-500 transition-all`}
